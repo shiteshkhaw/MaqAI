@@ -1,4 +1,6 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+// In Docker: nginx proxies /api to backend, so we use relative URLs (empty string)
+// In local dev: VITE_API_URL points directly to backend server
+const API_URL = import.meta.env.VITE_API_URL || '';
 
 interface ContactFormData {
     firstName: string;

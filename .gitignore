@@ -1,8 +1,18 @@
 node_modules
 dist
 build
+
+# Environment files (contain secrets)
 .env
-.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Allow example files to be committed
+!.env.example
+
 .next
 .cache
 .vscode
