@@ -1,0 +1,490 @@
+{
+    "config": {
+        "title": "Makhija Quantum AI Support",
+        "subtitle": "Quick help & FAQs",
+        "email": "honeymakhijacorporation@gmail.com",
+        "contactPage": "/#/contact",
+        "seo": {
+            "schema": "FAQPage",
+            "organization": "Makhija Quantum AI",
+            "industry": "AI Solutions & Automation"
+        }
+    },
+    "welcome": {
+        "message": "Hi.\n\nI can help with quick questions about our products, pricing, and support.\n\nWhat would you like to know?",
+        "buttons": [
+            {
+                "id": "about",
+                "label": "About us"
+            },
+            {
+                "id": "products",
+                "label": "Products & services"
+            },
+            {
+                "id": "getting_started",
+                "label": "Getting started"
+            },
+            {
+                "id": "pricing",
+                "label": "Pricing"
+            },
+            {
+                "id": "support",
+                "label": "Support & contact"
+            }
+        ]
+    },
+    "flows": {
+        "about": {
+            "response": "Makhija Quantum AI is a Mumbai-based technology company specialising in intelligent automation, productivity systems, and AI-powered business tools.\n\nWe work with enterprises, growing teams, and professionals who value clarity and efficiency.",
+            "seo": {
+                "question": "What is Makhija Quantum AI?",
+                "keywords": [
+                    "AI company India",
+                    "automation solutions Mumbai",
+                    "enterprise AI tools"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "about_problems",
+                    "label": "What problems do you solve?"
+                },
+                {
+                    "id": "about_audience",
+                    "label": "Who is this for?"
+                },
+                {
+                    "id": "about_different",
+                    "label": "What makes you different?"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "about_problems": {
+            "response": "We address three core challenges:\n\n1. Workflow inefficiencies that slow down decision-making\n2. Repetitive manual tasks that consume valuable time\n3. Communication gaps that create friction in daily operations\n\nOur solutions are designed to work quietly in the background, so your team can focus on work that matters.",
+            "seo": {
+                "question": "What business problems does Makhija Quantum AI solve?",
+                "keywords": [
+                    "workflow automation",
+                    "business efficiency",
+                    "reduce manual work"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "about",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "about_audience": {
+            "response": "Our solutions are built for:\n\n• Enterprises seeking operational efficiency at scale\n• Growing teams ready to modernise their workflows\n• Professionals who value structure without complexity\n• Organisations prioritising data security and reliability\n\nWe work across industries including finance, healthcare, education, and professional services.",
+            "seo": {
+                "question": "Who uses Makhija Quantum AI products?",
+                "keywords": [
+                    "enterprise software India",
+                    "B2B AI solutions",
+                    "business automation tools"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "about",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "about_different": {
+            "response": "Three principles guide everything we build:\n\n1. Calm efficiency over feature overload\n2. User-first design that respects your time\n3. Solutions that integrate seamlessly, not disruptively\n\nWe believe technology should reduce friction, not create it. Our tools work quietly, reliably, and without unnecessary complexity.",
+            "seo": {
+                "question": "What makes Makhija Quantum AI different?",
+                "keywords": [
+                    "user-friendly AI",
+                    "simple automation",
+                    "reliable business tools"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "about",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "products": {
+            "response": "We offer an integrated ecosystem of AI-powered tools, each designed to solve a specific business need:\n\n• PilotMail — Email automation with human oversight\n• TaskOS — Productivity and planning without clutter\n• WordSage — Intelligent writing assistance\n• Accula — Business operations and finance management\n• Insoch — Audio-led social engagement\n\nAll products are built in-house and designed to work together.",
+            "seo": {
+                "question": "What products does Makhija Quantum AI offer?",
+                "keywords": [
+                    "AI email automation",
+                    "productivity software",
+                    "business management tools India"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "products_solutions",
+                    "label": "Tell me more about each product"
+                },
+                {
+                    "id": "products_custom",
+                    "label": "Do you build custom solutions?"
+                },
+                {
+                    "id": "products_industries",
+                    "label": "Industries you work with"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "products_solutions": {
+            "response": "Our product ecosystem:\n\n• PilotMail — Automates email workflows while keeping you in control. Trusted by support teams and professionals.\n\n• TaskOS — A clean, AI-powered task and planning tool. Helps individuals and teams stay organised without mental clutter.\n\n• WordSage — Improves grammar, refines tone, and helps you write clearly while preserving your natural voice.\n\n• Accula — Tracks finances, inventory, and invoices in one place. Built for clarity in everyday business operations.\n\n• Insoch — Transforms social posts into live audio discussions. Built for authentic community engagement.",
+            "seo": {
+                "question": "What are the features of Makhija Quantum AI products?",
+                "keywords": [
+                    "PilotMail features",
+                    "TaskOS productivity",
+                    "WordSage AI writer",
+                    "Accula business software",
+                    "Insoch audio social"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "products",
+                    "label": "Back"
+                },
+                {
+                    "id": "support_contact",
+                    "label": "Request a demo"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "products_custom": {
+            "response": "Yes. We design and build custom solutions tailored to your specific requirements.\n\nOur process:\n1. Discovery — We listen first to understand your exact challenge\n2. Design — We propose a solution architecture for your review\n3. Build — Development with regular progress updates\n4. Deploy — Seamless integration with training and documentation\n\nCustom projects are scoped individually based on complexity and timeline.",
+            "seo": {
+                "question": "Does Makhija Quantum AI build custom software?",
+                "keywords": [
+                    "custom AI development",
+                    "bespoke automation solutions",
+                    "enterprise software development India"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "support_contact",
+                    "label": "Discuss a project"
+                },
+                {
+                    "id": "products",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "products_industries": {
+            "response": "We work with organisations across multiple sectors:\n\n• Financial Services — Compliance automation, reporting tools\n• Healthcare — Patient communication, operations management\n• Education — Administrative efficiency, student engagement\n• E-commerce — Order processing, customer support automation\n• Professional Services — Client management, documentation\n\nOur solutions adapt to industry-specific workflows and compliance requirements.",
+            "seo": {
+                "question": "What industries does Makhija Quantum AI serve?",
+                "keywords": [
+                    "AI for finance",
+                    "healthcare automation",
+                    "education technology India",
+                    "e-commerce tools"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "products",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "getting_started": {
+            "response": "Getting started is straightforward.\n\nWe focus on understanding your specific needs first, then design a solution that fits. No unnecessary complexity, no pressure.\n\nMost clients begin with a brief conversation to explore how we can help.",
+            "seo": {
+                "question": "How do I get started with Makhija Quantum AI?",
+                "keywords": [
+                    "AI implementation",
+                    "business automation onboarding",
+                    "start using AI tools"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "getting_started_how",
+                    "label": "What are the next steps?"
+                },
+                {
+                    "id": "getting_started_technical",
+                    "label": "Do I need technical knowledge?"
+                },
+                {
+                    "id": "getting_started_timeline",
+                    "label": "How long does setup take?"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "getting_started_how": {
+            "response": "Here is how we typically work with new clients:\n\n1. Initial Conversation — A brief call or email exchange to understand your needs\n2. Proposal — We provide a clear scope, timeline, and pricing\n3. Agreement — Simple, transparent terms with no hidden clauses\n4. Implementation — We handle setup, integration, and training\n5. Ongoing Support — Continued assistance as you grow\n\nReady to start? Reach out through our contact page.",
+            "seo": {
+                "question": "What is the process to work with Makhija Quantum AI?",
+                "keywords": [
+                    "enterprise onboarding",
+                    "AI implementation process",
+                    "business software setup"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "support_contact",
+                    "label": "Get in touch"
+                },
+                {
+                    "id": "getting_started",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "getting_started_technical": {
+            "response": "No technical expertise is required from your side.\n\nOur team handles:\n• Complete implementation and integration\n• Configuration tailored to your workflows\n• Comprehensive training for your team\n• Clear documentation for ongoing reference\n\nWe ensure your team can use our solutions confidently from day one.",
+            "seo": {
+                "question": "Do I need technical skills to use Makhija Quantum AI products?",
+                "keywords": [
+                    "no-code AI tools",
+                    "easy business automation",
+                    "user-friendly enterprise software"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "getting_started",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "getting_started_timeline": {
+            "response": "Timeline depends on project scope:\n\n• Standard product setup — 1 to 5 business days\n• Custom integrations — 2 to 4 weeks\n• Enterprise implementations — 4 to 8 weeks\n\nWe provide clear timelines upfront and keep you informed at every stage. Urgent requirements can often be accommodated with advance notice.",
+            "seo": {
+                "question": "How long does it take to implement Makhija Quantum AI solutions?",
+                "keywords": [
+                    "fast AI implementation",
+                    "business software deployment time",
+                    "quick automation setup"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "getting_started",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "pricing": {
+            "response": "Pricing is structured based on solution type, scope, and scale.\n\nWe believe in transparent pricing with no hidden fees. Every proposal includes clear costs, deliverables, and timelines upfront.",
+            "seo": {
+                "question": "How much do Makhija Quantum AI products cost?",
+                "keywords": [
+                    "AI software pricing",
+                    "automation cost India",
+                    "enterprise software pricing"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "pricing_demo",
+                    "label": "Can I see a demo first?"
+                },
+                {
+                    "id": "pricing_custom",
+                    "label": "Is pricing flexible?"
+                },
+                {
+                    "id": "pricing_quote",
+                    "label": "Request a quote"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "pricing_demo": {
+            "response": "Yes. We offer demonstrations for all our products.\n\nDemos are tailored to your specific use case so you can see exactly how our solutions would work in your environment.\n\nNo commitment required. Simply reach out to schedule a convenient time.",
+            "seo": {
+                "question": "Does Makhija Quantum AI offer product demos?",
+                "keywords": [
+                    "AI software demo",
+                    "free product trial",
+                    "see automation in action"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "support_contact",
+                    "label": "Schedule a demo"
+                },
+                {
+                    "id": "pricing",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "pricing_custom": {
+            "response": "Pricing is designed to be flexible:\n\n• Subscription plans that scale with your usage\n• Project-based pricing for custom work\n• Enterprise agreements for larger organisations\n\nWe work with you to find an arrangement that fits your budget and requirements. No rigid packages — just practical solutions.",
+            "seo": {
+                "question": "Is Makhija Quantum AI pricing customizable?",
+                "keywords": [
+                    "flexible software pricing",
+                    "custom enterprise pricing",
+                    "scalable AI costs"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "pricing",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "pricing_quote": {
+            "response": "To receive a personalised quote:\n\n1. Share your requirements through our contact page\n2. We will respond within 24 hours with initial questions\n3. After understanding your needs, we provide a detailed proposal\n\nAll quotes include transparent pricing, clear deliverables, and realistic timelines.",
+            "seo": {
+                "question": "How do I get a quote from Makhija Quantum AI?",
+                "keywords": [
+                    "AI software quote",
+                    "automation pricing request",
+                    "get enterprise quote"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "support_contact",
+                    "label": "Request a quote"
+                },
+                {
+                    "id": "pricing",
+                    "label": "Back"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "support": {
+            "response": "Our support team is here to help.\n\nFor technical assistance, account queries, or general questions — we aim to respond within 24 hours on business days.",
+            "seo": {
+                "question": "How do I contact Makhija Quantum AI support?",
+                "keywords": [
+                    "AI software support",
+                    "customer service",
+                    "technical help"
+                ]
+            },
+            "buttons": [
+                {
+                    "id": "support_email",
+                    "label": "Email support",
+                    "action": "mailto"
+                },
+                {
+                    "id": "support_contact",
+                    "label": "Contact page",
+                    "action": "link"
+                },
+                {
+                    "id": "main",
+                    "label": "Back to main menu"
+                }
+            ]
+        },
+        "support_email": {
+            "action": "mailto",
+            "target": "honeymakhijacorporation@gmail.com"
+        },
+        "support_contact": {
+            "action": "link",
+            "target": "/#/contact"
+        },
+        "main": {
+            "redirect": "welcome"
+        }
+    },
+    "fallback": {
+        "response": "I do not have specific information on that topic.\n\nOur team can provide a detailed response. Please reach out directly and we will get back to you promptly.",
+        "seo": {
+            "keywords": [
+                "contact support",
+                "get help",
+                "speak to team"
+            ]
+        },
+        "buttons": [
+            {
+                "id": "support_contact",
+                "label": "Contact our team",
+                "action": "link"
+            },
+            {
+                "id": "main",
+                "label": "Back to main menu"
+            }
+        ]
+    }
+}

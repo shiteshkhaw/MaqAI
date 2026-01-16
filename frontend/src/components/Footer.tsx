@@ -34,11 +34,11 @@ export const Footer: React.FC = () => {
                     <div>
                         <h4 className="font-bold text-white mb-4">Ecosystem</h4>
                         <ul className="space-y-2 text-sm text-gray-400">
-                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">PilotMail</Link></li>
+                            <li><a href="https://pilotmail.in/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">PilotMail</a></li>
                             <li><Link to="/products" className="hover:text-brand-accent transition-colors">Taskos</Link></li>
-                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">WordSage</Link></li>
-                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Accula</Link></li>
-                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Insoch</Link></li>
+                            <li><a href="https://wordsage.in/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">WordSage</a></li>
+                            <li><a href="https://accula.in/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">Accula</a></li>
+                            <li><a href="https://insoch.in/#/landing" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">Insoch</a></li>
                         </ul>
                     </div>
 
