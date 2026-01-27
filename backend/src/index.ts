@@ -1,15 +1,13 @@
+import 'dotenv/config'; // Load env vars before any other imports
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
-
-// Load environment variables FIRST
-dotenv.config();
 
 // Import config AFTER dotenv so validation has access to env vars
 import { config } from './config/index.js';
 import { contactRouter } from './routes/contact.js';
 import { productsRouter } from './routes/products.js';
 import { insightsRouter } from './routes/insights.js';
+import { chatbotAIRouter } from './routes/chatbotAI.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
 const app = express();
@@ -30,6 +28,7 @@ app.get('/api/health', (_req, res) => {
 app.use('/api/contact', contactRouter);
 app.use('/api/products', productsRouter);
 app.use('/api/insights', insightsRouter);
+app.use('/api/chatbot', chatbotAIRouter);
 
 // Error handling
 app.use(errorHandler);
