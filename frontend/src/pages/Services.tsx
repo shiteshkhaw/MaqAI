@@ -28,7 +28,8 @@ const SERVICES = [
             'Scalable architecture design'
         ],
         color: 'from-blue-500/10 to-cyan-500/10',
-        iconColor: 'text-blue-600 dark:text-blue-400'
+        iconColor: 'text-blue-600 dark:text-blue-400',
+        image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&q=80&w=1000'
     },
     {
         id: 'webdev',
@@ -42,7 +43,8 @@ const SERVICES = [
             'Progressive Web Apps (PWAs)'
         ],
         color: 'from-purple-500/10 to-pink-500/10',
-        iconColor: 'text-purple-600 dark:text-purple-400'
+        iconColor: 'text-purple-600 dark:text-purple-400',
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000'
     },
     {
         id: 'ai-solutions',
@@ -56,7 +58,8 @@ const SERVICES = [
             'Custom model training'
         ],
         color: 'from-green-500/10 to-emerald-500/10',
-        iconColor: 'text-green-600 dark:text-green-400'
+        iconColor: 'text-green-600 dark:text-green-400',
+        image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000'
     },
     {
         id: 'integrations',
@@ -70,7 +73,8 @@ const SERVICES = [
             'Legacy system modernization'
         ],
         color: 'from-orange-500/10 to-yellow-500/10',
-        iconColor: 'text-orange-600 dark:text-orange-400'
+        iconColor: 'text-orange-600 dark:text-orange-400',
+        image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=1000'
     },
     {
         id: 'consulting',
@@ -84,7 +88,8 @@ const SERVICES = [
             'Implementation roadmaps'
         ],
         color: 'from-indigo-500/10 to-violet-500/10',
-        iconColor: 'text-indigo-600 dark:text-indigo-400'
+        iconColor: 'text-indigo-600 dark:text-indigo-400',
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000'
     }
 ];
 
@@ -177,28 +182,44 @@ export const Services: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="space-y-8">
+                <div className="space-y-24">
                     {SERVICES.map((service, index) => (
                         <div
                             key={service.id}
-                            className={`bg-white dark:bg-brand-950 rounded-2xl p-8 border border-gray-100 dark:border-brand-800 shadow-sm hover:shadow-md transition-shadow`}
+                            className="group"
                         >
-                            <div className={`flex flex-col lg:flex-row gap-8 items-start ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-                                <div className="flex-shrink-0">
-                                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center`}>
-                                        <service.icon size={32} className={service.iconColor} />
+                            <div className={`flex flex-col lg:flex-row gap-12 items-center ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
+                                {/* Image Side */}
+                                <div className="flex-1 w-full">
+                                    <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-brand-900/10 dark:shadow-black/40 aspect-[4/3] lg:aspect-auto lg:h-[450px]">
+                                        <img 
+                                            src={service.image} 
+                                            alt={service.title} 
+                                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60"></div>
                                     </div>
                                 </div>
+
+                                {/* Content Side */}
                                 <div className="flex-1">
-                                    <h3 className="text-2xl font-bold text-brand-900 dark:text-white mb-3">{service.title}</h3>
-                                    <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">{service.description}</p>
-                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6`}>
+                                        <service.icon size={28} className={service.iconColor} />
+                                    </div>
+                                    <h3 className="text-3xl font-bold text-brand-900 dark:text-white mb-4 leading-tight">{service.title}</h3>
+                                    <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-8">{service.description}</p>
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                         {service.features.map((feature) => (
-                                            <div key={feature} className="flex items-center gap-2 text-sm text-brand-800 dark:text-gray-200">
-                                                <CheckCircle size={16} className="text-green-500 flex-shrink-0" />
-                                                {feature}
+                                            <div key={feature} className="flex items-center gap-3 text-brand-800 dark:text-gray-200 font-medium">
+                                                <CheckCircle size={20} className="text-brand-accent flex-shrink-0" />
+                                                <span>{feature}</span>
                                             </div>
                                         ))}
+                                    </div>
+                                    <div className="mt-10">
+                                        <Button to="/contact" variant="ghost" className="p-0 text-brand-accent hover:bg-transparent hover:text-brand-secondary font-bold text-lg group/btn">
+                                            Discuss this service <ArrowRight size={20} className="ml-2 transition-transform group-hover/btn:translate-x-1" />
+                                        </Button>
                                     </div>
                                 </div>
                             </div>
