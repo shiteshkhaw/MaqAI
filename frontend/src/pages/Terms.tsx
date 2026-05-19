@@ -36,7 +36,7 @@ export const Terms: React.FC = () => {
                     <p>
                         Makhija Quantum AI provides AI-powered tools, automation solutions, and related technology services
                         designed to help individuals and businesses work more efficiently. Our product ecosystem includes,
-                        but is not limited to: PilotMail, Taskos, WordSage, Accula, and Insoch.
+                        but is not limited to: WhatsApp Automation, Lead Generation Systems, Instagram Automation, and Content Generation services.
                     </p>
 
                     <h2>3. User Accounts</h2>

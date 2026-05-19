@@ -9,57 +9,59 @@ import { Helmet } from 'react-helmet-async';
 
 const PRODUCTS: Product[] = [
     {
-        id: 'insoch',
-        name: 'Insoch',
-        tagline: 'Audio-Led Social Engagement',
-        description: 'A social media platform where posts naturally turn into live audio rooms — enabling real discussions and community building instead of one-way broadcasting.',
-        features: ['Live audio rooms', 'Real discussions', 'Community building', 'Natural interaction'],
-        icon: 'audio',
-        status: 'Live',
-        link: 'https://insoch.in/#/landing',
-        image: '/insoch.png'
-    },
-    {
-        id: 'pilotmail',
-        name: 'PilotMail',
-        tagline: 'AI-Powered Email Automation',
-        description: 'An AI-powered email automation tool that helps entrepreneurs, businesses, influencers, and support teams manage communication with speed, accuracy, and professionalism — without replacing the human behind it.',
-        features: ['Speed & Accuracy', 'Professionalism', 'Human-centric', 'Support management'],
+        id: 'whatsapp-automation',
+        name: 'WhatsApp Automation',
+        tagline: 'Conversational Business Workflows',
+        description: 'Automate your customer engagement, support, and sales workflows directly on WhatsApp. Deliver instant responses and guide users without human intervention.',
+        features: ['Instant responses', 'Sales workflows', '24/7 Support', 'Broadcast messaging'],
         icon: 'mail',
         status: 'Live',
-        link: 'https://pilotmail.in/',
-        image: '/pilotmail.png'
+        image: '/whatsapp_automation.png',
+        link: '/#/whatsapp-automation'
     },
     {
-        id: 'taskos',
-        name: 'Taskos',
-        tagline: 'Productivity Without Clutter',
-        description: 'An AI productivity and planning tool that helps individuals and teams track tasks, plan their day, and stay organised without mental clutter.',
-        features: ['Track tasks', 'Plan your day', 'No mental clutter', 'Team organisation'],
-        icon: 'check',
-        status: 'Live'
-    },
-    {
-        id: 'wordsage',
-        name: 'WordSage',
-        tagline: 'Intelligent Writing Assistant',
-        description: 'An AI writing assistant that improves grammar, refines tone, drafts content, and helps people communicate clearly while preserving their natural voice.',
-        features: ['Improve grammar', 'Refine tone', 'Draft content', 'Preserve natural voice'],
-        icon: 'edit',
-        status: 'Live',
-        link: 'https://wordsage.in/',
-        image: '/wordsage.png'
-    },
-    {
-        id: 'accula',
-        name: 'Accula',
-        tagline: 'One-Stop Business System',
-        description: 'A one-stop business system to track finances, inventory, invoices, and operational work — built to bring clarity to everyday business management.',
-        features: ['Track finances', 'Inventory & Invoices', 'Operational clarity', 'Business management'],
+        id: 'lead-generation',
+        name: 'Lead Generation System',
+        tagline: 'AI-Powered Client Acquisition',
+        description: 'An intelligent system that identifies, engages, and nurtures prospects automatically, turning cold traffic into qualified leads for your business.',
+        features: ['Automated nurturing', 'Traffic conversion', 'Qualification', 'Analytics'],
         icon: 'chart',
         status: 'Live',
-        link: 'https://accula.in/',
-        image: '/accula.png'
+        image: '/lead_generation.png',
+        link: '/#/workflow-automation'
+    },
+    {
+        id: 'instagram-automation',
+        name: 'Instagram Automation',
+        tagline: 'Scale Your Social Presence',
+        description: 'Automate interactions, reply to DMs, handle comments, and engage your audience around the clock on Instagram without manual effort.',
+        features: ['DM Automation', 'Comment replies', 'Audience engagement', 'Lead capture'],
+        icon: 'audio',
+        status: 'Live',
+        image: '/instagram_automation.png',
+        link: '/#/instagram-automation'
+    },
+    {
+        id: 'social-media-content',
+        name: 'Social Media Content Gen',
+        tagline: 'AI-Crafted Social Posts',
+        description: 'Generate high-quality, engaging social media posts tailored to your brand voice, designed to maximize reach and engagement across platforms.',
+        features: ['Brand voice alignment', 'Multi-platform', 'Engaging copy', 'Consistent posting'],
+        icon: 'edit',
+        status: 'Live',
+        image: '/content_generation.png',
+        link: '/#/ai-content-generation'
+    },
+    {
+        id: 'other-content',
+        name: 'Content Generation',
+        tagline: 'Scalable Written Content',
+        description: 'Produce blogs, newsletters, and marketing copy efficiently using AI that understands your objectives and audience.',
+        features: ['Blog generation', 'Newsletters', 'Marketing copy', 'SEO optimization'],
+        icon: 'check',
+        status: 'Live',
+        image: '/workflow_automation.png',
+        link: '/#/workflow-automation'
     }
 ];
 
@@ -77,8 +79,8 @@ export const Products: React.FC = () => {
         <div className="pt-20">
             <Helmet>
                 <title>AI Products & Solutions | Makhija Quantum AI Software Suite</title>
-                <meta name="description" content="Explore our integrated AI product ecosystem: WordSage writing assistant, PilotMail email automation, Insoch social platform, Accula business management. Enterprise-ready tools trusted by 50+ companies." />
-                <meta name="keywords" content="AI writing assistant, email automation software, business management software, AI productivity tools, workflow automation software India" />
+                <meta name="description" content="Explore our integrated AI automation ecosystem: WhatsApp Automation, Lead Generation, Instagram Automation, and Social Media Content Generation." />
+                <meta name="keywords" content="WhatsApp automation, Instagram automation, Lead generation system, Social media content generation, AI tools India" />
             </Helmet>
 
             <Section bgColor="dark" className="py-16 relative overflow-hidden">

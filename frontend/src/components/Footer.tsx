@@ -32,13 +32,13 @@ export const Footer: React.FC = () => {
                     </div>
 
                     <div>
-                        <h4 className="font-bold text-white mb-4">Ecosystem</h4>
+                        <h4 className="font-bold text-white mb-4">Solutions</h4>
                         <ul className="space-y-2 text-sm text-gray-400">
-                            <li><a href="https://pilotmail.in/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">PilotMail</a></li>
-                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Taskos</Link></li>
-                            <li><a href="https://wordsage.in/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">WordSage</a></li>
-                            <li><a href="https://accula.in/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">Accula</a></li>
-                            <li><a href="https://insoch.in/#/landing" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-colors">Insoch</a></li>
+                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">WhatsApp Automation</Link></li>
+                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Lead Generation</Link></li>
+                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Instagram Automation</Link></li>
+                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Social Media Content</Link></li>
+                            <li><Link to="/products" className="hover:text-brand-accent transition-colors">Other Content</Link></li>
                         </ul>
                     </div>
 

@@ -187,14 +187,14 @@
                 "solutions",
                 "tools",
                 "offerings",
-                "pilotmail",
-                "taskos",
-                "wordsage",
-                "accula",
-                "insoch",
-                "software"
+                "whatsapp",
+                "instagram",
+                "automation",
+                "lead",
+                "generation",
+                "content"
             ],
-            "response": "We offer an integrated ecosystem of AI-powered tools, each designed to solve a specific business need:\n\n• PilotMail — Email automation with human oversight\n• TaskOS — Productivity and planning without clutter\n• WordSage — Intelligent writing assistance\n• Accula — Business operations and finance management\n• Insoch — Audio-led social engagement\n\nAll products are built in-house and designed to work together.",
+            "response": "We offer an integrated ecosystem of AI-powered automations, each designed to solve a specific business need:\n\n• WhatsApp Automation — Conversational workflows\n• Lead Generation System — AI-powered client acquisition\n• Instagram Automation — Scale your social presence\n• Social Media Content Gen — AI-crafted social posts\n• Other Content Generation — Scalable written content\n\nAll systems are built in-house and designed to work together.",
             "seo": {
                 "question": "What products does Makhija Quantum AI offer?",
                 "keywords": [
@@ -237,15 +237,15 @@
                 "audio",
                 "social"
             ],
-            "response": "Our product ecosystem:\n\n• PilotMail — Automates email workflows while keeping you in control. Trusted by support teams and professionals.\n\n• TaskOS — A clean, AI-powered task and planning tool. Helps individuals and teams stay organised without mental clutter.\n\n• WordSage — Improves grammar, refines tone, and helps you write clearly while preserving your natural voice.\n\n• Accula — Tracks finances, inventory, and invoices in one place. Built for clarity in everyday business operations.\n\n• Insoch — Transforms social posts into live audio discussions. Built for authentic community engagement.",
+            "response": "Our solution ecosystem:\n\n• WhatsApp Automation — Automate engagement, support, and sales directly on WhatsApp.\n\n• Lead Generation System — Identifies, engages, and nurtures prospects automatically.\n\n• Instagram Automation — Automate interactions, DMs, and comments around the clock.\n\n• Social Media Content Gen — Generate high-quality posts tailored to your brand voice.\n\n• Other Content Gen — Produce blogs, newsletters, and marketing copy efficiently using AI.",
             "seo": {
                 "question": "What are the features of Makhija Quantum AI products?",
                 "keywords": [
-                    "PilotMail features",
-                    "TaskOS productivity",
-                    "WordSage AI writer",
-                    "Accula business software",
-                    "Insoch audio social"
+                    "WhatsApp automation features",
+                    "Lead generation system",
+                    "Instagram AI tools",
+                    "Social media content generation",
+                    "AI content creation"
                 ]
             },
             "buttons": [

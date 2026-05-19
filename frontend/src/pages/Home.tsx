@@ -84,21 +84,21 @@ export const Home: React.FC = () => {
                 <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                     <div className="order-2 lg:order-1">
                         {/* Featured Product Preview */}
-                        <DeviceMockup variant="browser" url="wordsage.in">
+                        <DeviceMockup variant="browser" url="whatsapp-automation.local">
                             <div className="relative">
                                 <img
-                                    src="/wordsage.png"
-                                    alt="WordSage - AI Writing Assistant"
-                                    className="w-full h-auto"
+                                    src="/whatsapp_automation.png"
+                                    alt="WhatsApp Automation Preview"
+                                    className="w-full h-auto object-cover"
                                 />
                                 {/* Gradient overlay at bottom */}
                                 <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white dark:from-brand-950 to-transparent"></div>
                                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
                                     <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-white/90 dark:bg-brand-900/90 px-3 py-1.5 rounded-full backdrop-blur-sm">
-                                        Featured: WordSage
+                                        Featured: WhatsApp Automation
                                     </span>
                                     <Link to="/products" className="text-xs font-semibold text-brand-accent hover:text-brand-secondary transition-colors flex items-center gap-1 bg-white/90 dark:bg-brand-900/90 px-3 py-1.5 rounded-full backdrop-blur-sm">
-                                        View All Products <ChevronRight size={14} />
+                                        View All Solutions <ChevronRight size={14} />
                                     </Link>
                                 </div>
                             </div>
@@ -146,25 +146,25 @@ export const Home: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
                         {
-                            name: 'Insoch',
-                            desc: 'A social media platform where posts naturally turn into live audio rooms — enabling real discussions.',
+                            name: 'WhatsApp Automation',
+                            desc: 'Automate your customer engagement, support, and sales workflows directly on WhatsApp.',
                             icon: Radio,
-                            bg: 'from-purple-500/10 to-blue-500/10',
-                            color: 'text-purple-600 dark:text-purple-400'
-                        },
-                        {
-                            name: 'Taskos',
-                            desc: 'AI productivity and planning tool that helps individuals and teams stay organised without mental clutter.',
-                            icon: Sparkles,
-                            bg: 'from-orange-500/10 to-red-500/10',
-                            color: 'text-orange-600 dark:text-orange-400'
-                        },
-                        {
-                            name: 'Accula',
-                            desc: 'One-stop business system to track finances, inventory, invoices, and operational work.',
-                            icon: TrendingUp,
-                            bg: 'from-green-500/10 to-teal-500/10',
+                            bg: 'from-green-500/10 to-emerald-500/10',
                             color: 'text-green-600 dark:text-green-400'
+                        },
+                        {
+                            name: 'Lead Generation System',
+                            desc: 'An intelligent system that identifies, engages, and nurtures prospects automatically.',
+                            icon: TrendingUp,
+                            bg: 'from-blue-500/10 to-indigo-500/10',
+                            color: 'text-blue-600 dark:text-blue-400'
+                        },
+                        {
+                            name: 'Social Media Content Gen',
+                            desc: 'Generate high-quality, engaging social media posts tailored to your brand voice.',
+                            icon: Sparkles,
+                            bg: 'from-purple-500/10 to-pink-500/10',
+                            color: 'text-purple-600 dark:text-purple-400'
                         },
                     ].map((prod) => (
                         <Link to="/products" key={prod.name} className="group relative bg-white dark:bg-brand-900/20 border border-gray-100 dark:border-brand-800 rounded-2xl p-6 hover:-translate-y-1 transition-all duration-300 hover:shadow-xl hover:shadow-brand-900/5 dark:hover:shadow-black/40 block shine-hover">

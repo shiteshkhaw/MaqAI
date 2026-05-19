@@ -11,6 +11,8 @@ import { Insights } from './pages/Insights';
 import { Contact } from './pages/Contact';
 import { Terms } from './pages/Terms';
 import { Privacy } from './pages/Privacy';
+import { ProgrammaticPage } from './pages/ProgrammaticPage';
+import { PAGES_CONTENT } from './data/pagesContent';
 import { ThemeProvider } from './context/ThemeContext';
 
 const ScrollToTop = () => {
@@ -39,6 +41,15 @@ const App: React.FC = () => {
                             <Route path="/contact" element={<Contact />} />
                             <Route path="/terms" element={<Terms />} />
                             <Route path="/privacy" element={<Privacy />} />
+                            
+                            {/* SEO Programmatic Pages */}
+                            {Object.keys(PAGES_CONTENT).map((slug) => (
+                                <Route 
+                                    key={slug} 
+                                    path={`/${slug}`} 
+                                    element={<ProgrammaticPage slug={slug} />} 
+                                />
+                            ))}
                         </Routes>
                     </main>
                     <Footer />

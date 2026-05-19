@@ -25,6 +25,7 @@ export interface InsightPost {
     category: string;
     readTime: string;
     author: string;
+    relatedSlug?: string;
 }
 
 export interface BlogPost {

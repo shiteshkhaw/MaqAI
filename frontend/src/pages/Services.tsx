@@ -29,7 +29,7 @@ const SERVICES = [
         ],
         color: 'from-blue-500/10 to-cyan-500/10',
         iconColor: 'text-blue-600 dark:text-blue-400',
-        image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&q=80&w=1000'
+        image: '/workflow_automation.png'
     },
     {
         id: 'webdev',
@@ -44,7 +44,7 @@ const SERVICES = [
         ],
         color: 'from-purple-500/10 to-pink-500/10',
         iconColor: 'text-purple-600 dark:text-purple-400',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000'
+        image: '/lead_generation.png'
     },
     {
         id: 'ai-solutions',
@@ -59,7 +59,7 @@ const SERVICES = [
         ],
         color: 'from-green-500/10 to-emerald-500/10',
         iconColor: 'text-green-600 dark:text-green-400',
-        image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000'
+        image: '/chatbots_agents.png'
     },
     {
         id: 'integrations',
@@ -74,7 +74,7 @@ const SERVICES = [
         ],
         color: 'from-orange-500/10 to-yellow-500/10',
         iconColor: 'text-orange-600 dark:text-orange-400',
-        image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=1000'
+        image: '/whatsapp_automation.png'
     },
     {
         id: 'consulting',
@@ -89,7 +89,7 @@ const SERVICES = [
         ],
         color: 'from-indigo-500/10 to-violet-500/10',
         iconColor: 'text-indigo-600 dark:text-indigo-400',
-        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000'
+        image: '/content_generation.png'
     }
 ];
 
