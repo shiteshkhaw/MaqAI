@@ -11,9 +11,9 @@ const PRODUCTS: Product[] = [
     {
         id: 'whatsapp-automation',
         name: 'WhatsApp Automation',
-        tagline: 'Conversational Business Workflows',
-        description: 'Automate your customer engagement, support, and sales workflows directly on WhatsApp. Deliver instant responses and guide users without human intervention.',
-        features: ['Instant responses', 'Sales workflows', '24/7 Support', 'Broadcast messaging'],
+        tagline: 'Automate customer conversations, follow-ups, and support on WhatsApp',
+        description: 'Handle inquiries, qualify leads, and respond instantly without manual effort. Reduce response time and never miss a lead.',
+        features: ['Instant auto replies', 'Lead qualification flows', 'Automated follow-ups', 'Broadcast messaging'],
         icon: 'mail',
         status: 'Live',
         image: '/whatsapp_automation.png',
@@ -22,9 +22,9 @@ const PRODUCTS: Product[] = [
     {
         id: 'lead-generation',
         name: 'Lead Generation System',
-        tagline: 'AI-Powered Client Acquisition',
-        description: 'An intelligent system that identifies, engages, and nurtures prospects automatically, turning cold traffic into qualified leads for your business.',
-        features: ['Automated nurturing', 'Traffic conversion', 'Qualification', 'Analytics'],
+        tagline: 'Capture and convert leads automatically',
+        description: 'Turn traffic into qualified leads using automated funnels and workflows. Increase conversions without manual follow-ups.',
+        features: ['Automated lead capture', 'Lead qualification', 'Funnel automation', 'Conversion tracking'],
         icon: 'chart',
         status: 'Live',
         image: '/lead_generation.png',
@@ -33,35 +33,24 @@ const PRODUCTS: Product[] = [
     {
         id: 'instagram-automation',
         name: 'Instagram Automation',
-        tagline: 'Scale Your Social Presence',
-        description: 'Automate interactions, reply to DMs, handle comments, and engage your audience around the clock on Instagram without manual effort.',
-        features: ['DM Automation', 'Comment replies', 'Audience engagement', 'Lead capture'],
+        tagline: 'Automate DMs, comments, and audience engagement',
+        description: 'Respond to messages, trigger replies, and capture leads from Instagram automatically. Turn engagement into leads automatically.',
+        features: ['DM automation', 'Comment triggers', 'Lead capture', 'Engagement automation'],
         icon: 'audio',
         status: 'Live',
         image: '/instagram_automation.png',
         link: '/#/instagram-automation'
     },
     {
-        id: 'social-media-content',
-        name: 'Social Media Content Gen',
-        tagline: 'AI-Crafted Social Posts',
-        description: 'Generate high-quality, engaging social media posts tailored to your brand voice, designed to maximize reach and engagement across platforms.',
-        features: ['Brand voice alignment', 'Multi-platform', 'Engaging copy', 'Consistent posting'],
+        id: 'ai-content-automation',
+        name: 'AI Content Generation & Automation',
+        tagline: 'Automate blogs, ads, Insta Reels, YT Shorts, and short films using AI',
+        description: 'Generate text and video content—including Reels, Shorts, and marketing copy—and publish them via automated pipelines. Maintain consistent content across all platforms without manual effort.',
+        features: ['Video & copy generation', 'Multi-platform posting', 'SEO optimization', 'Automated scheduling'],
         icon: 'edit',
         status: 'Live',
         image: '/content_generation.png',
         link: '/#/ai-content-generation'
-    },
-    {
-        id: 'other-content',
-        name: 'Content Generation',
-        tagline: 'Scalable Written Content',
-        description: 'Produce blogs, newsletters, and marketing copy efficiently using AI that understands your objectives and audience.',
-        features: ['Blog generation', 'Newsletters', 'Marketing copy', 'SEO optimization'],
-        icon: 'check',
-        status: 'Live',
-        image: '/workflow_automation.png',
-        link: '/#/workflow-automation'
     }
 ];
 
@@ -182,7 +171,7 @@ export const Products: React.FC = () => {
                                             rel={product.link ? "noopener noreferrer" : undefined}
                                             className="group h-12 px-6 rounded-full text-sm"
                                         >
-                                            {product.link ? "Visit Website" : "Request Access"}
+                                            {product.link ? "Explore Solution" : "Request Access"}
                                             {product.link ? (
                                                 <ExternalLink className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                                             ) : (
@@ -195,7 +184,7 @@ export const Products: React.FC = () => {
                                         {/* Product Preview with Device Mockup */}
                                         <DeviceMockup
                                             variant="browser"
-                                            url={product.link ? new URL(product.link).hostname : `${product.id}.makhijaquantum.ai`}
+                                            url={product.link ? (product.link.startsWith('http') ? new URL(product.link).hostname : `makhijaquantum.ai${product.link.replace('/#', '')}`) : `${product.id}.makhijaquantum.ai`}
                                         >
                                             <AppPreview
                                                 accessLevel={product.link ? 'public' : 'gated'}
@@ -213,7 +202,7 @@ export const Products: React.FC = () => {
                                                     <img
                                                         src={product.image}
                                                         alt={`${product.name} screenshot`}
-                                                        className="w-full h-auto object-cover"
+                                                        className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out"
                                                     />
                                                 ) : (
                                                     <div className="aspect-[16/10] flex items-center justify-center bg-gradient-to-tr from-gray-50 to-white dark:from-brand-900 dark:to-brand-800">
