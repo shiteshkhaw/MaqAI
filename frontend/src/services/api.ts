@@ -1,6 +1,16 @@
 // In Docker: nginx proxies /api to backend, so we use relative URLs (empty string)
 // In local dev: VITE_API_URL points directly to backend server
-const API_URL = import.meta.env.VITE_API_URL || '';
+// Guard: if value is set but missing protocol (e.g. "makhijaquantumai.com"),
+// prefix https:// to prevent it being treated as a relative path by the browser.
+function normalizeApiUrl(url: string | undefined): string {
+    if (!url) return '';
+    // Already has a protocol — use as-is
+    if (url.startsWith('http://') || url.startsWith('https://')) return url;
+    // No protocol — add https://
+    console.warn(`[api] VITE_API_URL "${url}" is missing protocol. Prepending https://`);
+    return `https://${url}`;
+}
+const API_URL = normalizeApiUrl(import.meta.env.VITE_API_URL);
 
 interface ContactFormData {
     firstName: string;
